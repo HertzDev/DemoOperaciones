@@ -86,14 +86,8 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtA">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField1"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtB">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField1"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnSumar">
       <Properties>

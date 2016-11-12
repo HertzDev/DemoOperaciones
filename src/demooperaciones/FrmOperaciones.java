@@ -41,10 +41,6 @@ public class FrmOperaciones extends javax.swing.JFrame {
 
         lblB.setText("numero B:");
 
-        txtA.setText("jTextField1");
-
-        txtB.setText("jTextField1");
-
         btnSumar.setText("Sumar");
         btnSumar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,7 +100,7 @@ public class FrmOperaciones extends javax.swing.JFrame {
         // TODO add your handling code here:
         int suma;
         suma=(Integer.parseInt(txtA.getText())+ Integer.parseInt(txtB.getText()));
-        lblRess.setText(String.valueOf(suma));
+        lblRess.setText("la sumatoria de los numeros es:"+String.valueOf(suma));
         
     }//GEN-LAST:event_btnSumarActionPerformed
 
